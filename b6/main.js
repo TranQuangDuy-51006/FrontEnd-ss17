@@ -1,0 +1,18 @@
+let str1 = "5";
+str1 = +str1;
+let str2 = "1";
+str2 = +str2;
+let str3 = "Hello";
+str3 = Number(str3);
+console.log(typeof str1);
+console.log(typeof str2);
+console.log(typeof str3);
+let n1 = 55;
+n1 = String(n1);
+let n2 = -10;
+n2 = String(n2);
+let n3 = 0;
+n3 = String(n3);
+console.log(typeof n1);
+console.log(typeof n2);
+console.log(typeof n3);
